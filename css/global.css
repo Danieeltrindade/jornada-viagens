@@ -11,7 +11,7 @@ Cores de texto  */
   --button-secondary-color: #b81515;
 
   --text-primary-color: #222222;
-  --text-secundary-color: #ffffff;
+  --text-secondary-color: #ffffff;
 }
 
 /* CSS RESET */
@@ -29,4 +29,7 @@ button {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body{
+  font-family: "Montserrat";
 }
