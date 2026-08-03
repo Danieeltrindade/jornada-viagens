@@ -93,7 +93,7 @@ nav {
     display: none;
   }
   .navigation-menu a:hover{
-    color: var(--button-primary-color);
+    color: var(--primary-color);
   }
 }
 
@@ -102,3 +102,4 @@ nav {
     padding:38px 160px ;
   }
 }
+
