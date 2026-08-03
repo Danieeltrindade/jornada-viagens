@@ -1,17 +1,24 @@
-/* Backgraud 
-Botoes
-Cores de texto  */
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+  font-size: normal;
+  font-display: swap;
+}
 
 :root {
+  --primary-color: #8f0101;
+  --secundary-color: #b81515;
+
   --backgraund-primary-color: #ffffff;
   --backgraund-secondary-color: #f5f5f5;
   --backgraund-tertiary-color: #000000;
 
-  --button-primary-color: #8f0101;
-  --button-secondary-color: #b81515;
-
   --text-primary-color: #222222;
   --text-secondary-color: #ffffff;
+
+  --title-weight: 700;
+  --text-weight: 400;
+  --menu-text-weight:500;
 }
 
 /* CSS RESET */
