@@ -1,5 +1,5 @@
 header {
-  background-color: var(--backgraund-tertiary-color);
+  background-color: var(--background-tertiary-color);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -32,7 +32,7 @@ input[type="checkbox"]:checked ~ nav{
   top: 100%;
   left: 0;
   width: 100%;
-  background-color: var(--backgraund-tertiary-color);
+  background-color: var(--background-tertiary-color);
 }
 
 nav {
@@ -43,7 +43,7 @@ nav {
 }
 
 .list-links li {
-  margin-top: 16px ;
+  margin: 16px 0;
 }
 
 .list-links li a{
@@ -97,7 +97,7 @@ nav {
   }
 }
 
-@media screen and (min-width: 1920) {
+@media screen and (min-width: 1920px) {
   header{
     padding:38px 160px ;
   }

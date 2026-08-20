@@ -1,24 +1,24 @@
 @font-face {
   font-family: "Montserrat";
   src: url(../fonts/Montserrat-VariableFont_wght.ttf);
-  font-size: normal;
+  font-style: normal;
   font-display: swap;
 }
 
 :root {
-  --primary-color: #8f0101;
-  --secundary-color: #b81515;
+    --primary-color: #8f0101;
+    --secondary-color: #b81515;
 
-  --backgraund-primary-color: #ffffff;
-  --backgraund-secondary-color: #f5f5f5;
-  --backgraund-tertiary-color: #000000;
+    --background-primary-color: #ffffff;
+    --background-secondary-color: #f5f5f5;
+    --background-tertiary-color: #000000;
 
-  --text-primary-color: #222222;
-  --text-secondary-color: #ffffff;
+    --text-primary-color: #222222;
+    --text-secondary-color: #ffffff;
 
-  --title-weight: 700;
-  --text-weight: 400;
-  --menu-text-weight:500;
+    --title-weight: 700;
+    --text-weight: 400;
+    --menu-text-weight: 500;
 }
 
 /* CSS RESET */
@@ -52,7 +52,7 @@ body{
 .section-title hr{
   width: 180px;
   height: 4px;
-  background-color: var(--secundary-color);
+  background-color: var(--secondary-color);
   border: none;
   margin: 16px auto 32px;
 }
@@ -63,7 +63,7 @@ body{
   color: var(--text-secondary-color);
   font-weight: var(--title-weight);
   font-size: 20px;
-  background-color: var(--secundary-color);
+  background-color: var(--secondary-color);
   border-radius: 16px;
   display: inline-block;
   text-decoration: none;
